@@ -1,0 +1,36 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+*/
+.nav-wrapper {
+    background: #2e3192;
+    margin-top: 1%;
+}
+
+.nav-content {
+    /*background: #6b6b6b;*/
+    background: #bd632f;
+}
+
+.tab {
+    text-align: center;
+}
+
+#h2Back {
+
+}
+
+/* #bd632f (tiger's eye), #987D7c (cinerous) */

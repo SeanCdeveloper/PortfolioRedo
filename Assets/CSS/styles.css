@@ -1,3 +1,8 @@
+/*
+body { 
+    background: #6b6b6b;
+}
+*/
 html {
     position: relative;
     min-height: 100%;
@@ -7,21 +12,20 @@ html {
     box-sizing: border-box;
 }
 
-/*
+
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
 }
-*/
+
 .nav-wrapper {
     background: #2e3192;
     margin-top: 1%;
 }
 
 .nav-content {
-    /*background: #6b6b6b;*/
     background: #bd632f;
 }
 
@@ -31,4 +35,4 @@ html {
 
 
 
-/* #bd632f (tiger's eye), #987D7c (cinerous) */
+/* #bd632f (tiger's eye), #6b6b6b; (gray color); #987D7c (cinerous) */

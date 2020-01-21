@@ -12,7 +12,6 @@ html {
     box-sizing: border-box;
 }
 
-
 .container {
     width: 100%;
     max-width: 960px;
@@ -33,6 +32,65 @@ html {
     text-align: center;
 }
 
+/* Resume Modal Styling */
 
+#exampleModalLongTitle {
+    text-decoration: underline;
+    color: #bd632f;
+    text-align: center;
+    font-family: Times;
+}
 
-/* #bd632f (tiger's eye), #6b6b6b; (gray color); #987D7c (cinerous) */
+.contactInfo {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 14pt;
+}
+
+.categoryLabel {
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+.jobTitles {
+    color: darkred;
+    font-size: 12pt;
+}
+
+.jobDesc {
+    font-family: Verdana;
+}
+
+/* #bd632f (tiger's eye), #6b6b6b; (gray color); 
+#2e3192 (blue), #987D7c (cinerous) */
+/*
+	   body {
+		font-family: Verdana, sans-serif;
+		font-size: 12px;
+	}
+	   header {
+		text-align: center;
+	}
+	   h1 {
+		font-family: Georgia, serif;
+		font-size: 28px;
+		text-align: center;	
+	}
+	   h3 {
+		text-align: center; 
+	}
+	   p .contactInfo {
+		font-size: 14px;
+	}
+	   p .categorylabel {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	   div.indented {
+		margin-left: 25px;
+    }
+*/

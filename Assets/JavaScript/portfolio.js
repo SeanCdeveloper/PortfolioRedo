@@ -3,8 +3,4 @@ $(document).ready(function() {
 });
 
 
-/*
-$(document).ready(function() {
-    $(".tab").modal();
-});
-*/
+

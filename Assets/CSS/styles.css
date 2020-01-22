@@ -106,8 +106,12 @@ html {
     transition-timing-function: linear;
 }
 
+#emailBtn:hover {
+    background: #bd632f
+}
+
 .input-field label {
-    color:  #2e3192 !important;
+    color:  #000 !important;
     font-family: Verdana;
     font-size: 14pt;
 }

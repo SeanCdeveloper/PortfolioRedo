@@ -32,9 +32,24 @@ html {
     text-align: center;
 }
 
+.tab:hover {
+  background: #2e3192;
+  transition-duration: .5s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+}
+
 .projectTitle {
     font-family: fantasy;
     font-size: 20pt;
+}
+
+.siteNHubLink:link {
+    color: #6479a0;
+}
+
+.siteNHubLink:hover {
+    color: red;
 }
 
 /* Resume Modal Styling */

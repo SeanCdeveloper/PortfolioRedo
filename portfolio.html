@@ -38,7 +38,7 @@
                         <ul class="tabs tabs-transparent">
                             <li class="tab"><a href="#modal1" class="active modal-trigger">View R&eacute;sum&eacute;</a>
                             </li>
-                            <li class="tab"><a href="#modal2" class="active modal-trigger">Test 2</a></li>
+                            <li class="tab"><a href="#modal2" class="active modal-trigger">Email Me</a></li>
                             <li class="tab"><a href="#modal3" class="active modal-trigger">Test 3</a></li>
                             <li class="tab"><a href="#modal4" class="active modal-trigger">Test 4</a></li>
                         </ul>
@@ -57,42 +57,42 @@
                 <hr>
             </div>
         </div>
-            <!--Ingredience IMG-->
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="Assets/Images/IngredienceIntro.png">
-                            <span class="card-title">Card Title</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i
-                                    class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-image">
-                            <img src="Assets/Images/IngredRecipe.png">
-                            <span class="card-title">Card Title</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i
-                                    class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-content">
-                            <hr>
-                            <p>I am a very simple card. I am good at containing small bits of information. I am
-                                convenient because I require little markup to use effectively.</p>
-                        </div>
+        <!--Ingredience IMG-->
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Assets/Images/IngredienceIntro.png">
+                        <span class="card-title">Card Title</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-image">
+                        <img src="Assets/Images/IngredRecipe.png">
+                        <span class="card-title">Card Title</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                            convenient because I require little markup to use effectively.</p>
                     </div>
                 </div>
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-content">
-                            <span class="card-title">ABC</span>
-                            <div id="connect">
-                                <img src="Assets/Images/github.png" class="social" alt="Github">
-                                <img src="Assets/Images/linkedin.png" class="social" alt="LinkedIn">
-                            </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Connect With Me:</span>
+                        <div id="connect">
+                            <img src="Assets/Images/github.png" class="social" alt="Github">
+                            <img src="Assets/Images/linkedin.png" class="social" alt="LinkedIn">
                         </div>
                     </div>
                 </div>
             </div>
-            <!--
+        </div>
+        <!--
             <section class="sidebar">
                 <div id="connect">
                     <h2>Connect with Me</h2>
@@ -101,7 +101,7 @@
                 </div>
             </section>
 -->
-            <!--Weather APP IMG-->
+        <!--Weather APP IMG-->
         <div class="row">
             <div class="col s12 m6">
                 <div class="card">
@@ -272,24 +272,42 @@
 </body>
 
 </html>
-
-
-
-<!--
-<nav>
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
+<div id="modal2" class="modal bottom-sheet">
+    <div class="modal-content">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div id="emailRow" class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Email" id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div id="textAreaRow" class="row">
+                    <form class="col s12">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Questions? Comments?</label>
+                            </div>
+                    </form>
+                </div>
+            </form>
+        </div>
+        <div id="emailBtnWrap" class="modal-footer">
+            <a href="#!" id="emailBtn" class="modal-close waves-effect btn-flat">Send</a>
+        </div>
     </div>
-</nav>
--->
 
-
-<!-- Modal 
+    <!-- Modal 
   <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">

@@ -80,6 +80,57 @@ html {
     background: #bd632f
 }
 
+/* Email Modal Styling */
+
+#emailRow {
+    transform: translateY(-30px);
+}
+
+#textAreaRow {
+    transform: translateY(-60px);
+}
+
+#emailBtnWrap {
+    transform: translateY(-7em);
+    text-align: center; 
+}
+
+#emailBtn {
+    background: #2e3192;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 0.21px;
+    border-radius: 8px;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.input-field label {
+    color:  #2e3192 !important;
+    font-family: Verdana;
+    font-size: 14pt;
+}
+
+.input-field input:focus + label {
+    color: #bd632f !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #bd632f !important;
+    box-shadow: 0 1px 0 0 #bd632f !important
+  }
+
+.input-field textarea:focus + label {
+    color: #bd632f !important;
+}
+
+.row .input-field textarea:focus {
+    border-bottom: 1px solid #bd632f !important;
+    box-shadow: 0 1px 0 0 #bd632f !important
+  }
+
+ 
 /* #bd632f (tiger's eye), #6b6b6b; (gray color); 
 #2e3192 (blue), #987D7c (cinerous) */
 /*

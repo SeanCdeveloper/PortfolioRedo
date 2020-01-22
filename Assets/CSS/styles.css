@@ -65,6 +65,11 @@ html {
     margin-left: 5%;
 }
 
+#closeBtn {
+    background: #2e3192;
+    color: #ffffff;
+}
+
 /* #bd632f (tiger's eye), #6b6b6b; (gray color); 
 #2e3192 (blue), #987D7c (cinerous) */
 /*

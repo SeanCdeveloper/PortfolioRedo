@@ -1,8 +1,17 @@
 /*
 body { 
-    background: #6b6b6b;
+    background: url("../images/concrete_seamless.png");
 }
 */
+.brand-logo {
+    font-family: Copperplate;
+}
+
+#portH2 {
+    font-family: Apple Chancery;
+    line-height: 1;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -30,6 +39,7 @@ html {
 
 .tab {
     text-align: center;
+    font-family: Times;
 }
 
 .tab:hover {

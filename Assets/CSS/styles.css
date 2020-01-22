@@ -32,6 +32,11 @@ html {
     text-align: center;
 }
 
+.projectTitle {
+    font-family: fantasy;
+    font-size: 20pt;
+}
+
 /* Resume Modal Styling */
 
 #exampleModalLongTitle {

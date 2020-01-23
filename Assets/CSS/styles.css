@@ -1,6 +1,16 @@
+/* was .container */
 
 html { 
     background: url("../images/concrete_seamless.png");
+}
+
+/*
+html {
+    background: black;
+}
+*/
+#h2Back {
+    margin: 0;
 }
 
 .brand-logo {
@@ -10,6 +20,7 @@ html {
 #portH2 {
     font-family: Apple Chancery;
     line-height: 1;
+    margin-top: 0;
 }
 
 html {
@@ -61,8 +72,6 @@ html {
 .siteNHubLink:hover {
     color: red;
 }
-
-/* Added 1/23/19 */
 
 #connectSect {
     text-align: center;

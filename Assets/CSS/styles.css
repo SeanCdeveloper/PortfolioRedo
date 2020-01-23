@@ -1,8 +1,7 @@
-/*
+
 html { 
     background: url("../images/concrete_seamless.png");
 }
-*/
 
 .brand-logo {
     font-family: Copperplate;
@@ -67,6 +66,7 @@ html {
 
 #connectSect {
     text-align: center;
+    background: url("../images/concrete_seamless.png");
 }
 
 #slackPic {
@@ -79,10 +79,6 @@ html {
     cursor: crosshair;
 }
 
-#footCard {
-    background: #d3d3d3;
-}
-
 #connectText {
     font-family: fantasy;
     font-size: 30pt;
@@ -90,13 +86,13 @@ html {
 }
 
 .appDescr {
-    font-family: Times;
     font-family: Verdana;
 }
 
-.cardContent {
-    background: #d3d3d3;
+.card-content {
+    background: #ffffff;
 }
+
 /* Resume Modal Styling */
 
 #exampleModalLongTitle {

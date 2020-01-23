@@ -95,6 +95,10 @@ html {
     margin-left: 5%;
 }
 
+#resumeBtnWrap {
+    text-align: center;
+}
+
 #closeBtn {
     background: #2e3192;
     color: #ffffff;
@@ -170,31 +174,3 @@ html {
  
 /* #bd632f (tiger's eye), #6b6b6b; (gray color); 
 #2e3192 (blue), #987D7c (cinerous) */
-/*
-	   body {
-		font-family: Verdana, sans-serif;
-		font-size: 12px;
-	}
-	   header {
-		text-align: center;
-	}
-	   h1 {
-		font-family: Georgia, serif;
-		font-size: 28px;
-		text-align: center;	
-	}
-	   h3 {
-		text-align: center; 
-	}
-	   p .contactInfo {
-		font-size: 14px;
-	}
-	   p .categorylabel {
-		font-size: 12px;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-	   div.indented {
-		margin-left: 25px;
-    }
-*/

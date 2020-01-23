@@ -93,6 +93,10 @@ html {
     font-family: Times;
     font-family: Verdana;
 }
+
+.cardContent {
+    background: #d3d3d3;
+}
 /* Resume Modal Styling */
 
 #exampleModalLongTitle {

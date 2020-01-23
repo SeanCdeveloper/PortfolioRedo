@@ -88,6 +88,11 @@ footer {
     background: #d3d3d3;
 }
 
+#connectText {
+    font-family: fantasy;
+    font-size: 30pt;
+    margin-bottom: 2%;
+}
 /* Resume Modal Styling */
 
 #exampleModalLongTitle {

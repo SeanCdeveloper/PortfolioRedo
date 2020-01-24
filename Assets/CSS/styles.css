@@ -133,6 +133,10 @@ html {
     text-align: center;
 }
 
+.educationList {
+    margin-left: 5%;
+}
+
 #closeBtn {
     background: #2e3192;
     color: #ffffff;
